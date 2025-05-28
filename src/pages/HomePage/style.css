@@ -1,13 +1,64 @@
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 4rem; */
+  background-color: var(--background-primary);
+  padding: 4rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
+  width: 80%;
+}
+
+.katka--article {
+  padding: 2rem;
+}
+
+.han--article {
+  padding: 2rem;
+}
+
+.names {
+  color: #1F06AC;
+}
+
+.subheading {
+  color: #1F06AC;
+}
+
+main {
+  background-color: var(--background-primary);
+  padding: 2.5rem 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  background-color: var(--background-secondary);
+  width: 80%;
+  padding: 2.5rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: var(--background-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+  width: 15rem;
+  height: 15rem;
+  background-image: url(./img/foto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
 }
